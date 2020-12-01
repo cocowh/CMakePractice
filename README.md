@@ -172,7 +172,7 @@ EXCLUDE_FROM_ALL：标识此库不会被默认构建，除非有其他的组件�
 #### ADD\_SUBDIRECTORY
 
 ```
-ADD_SUBDIRECTORY(source\_dir [binary\_dir] [EXCLUDE\_FROM\_ALL])
+ADD_SUBDIRECTORY(source_dir [binary_dir] [EXCLUDE_FROM_ALL])
 ```
 
 向当前工程添加存放源文件的子目录，并可以指定中间二进制和目标二进制存放的为止。
@@ -290,7 +290,7 @@ INSTALL(TARGETS targets ...
         [OPTIONAL]  
     ] [...])
 ```
-TARGETS后面跟通过`ADD\_EXECUTABLE`或者`ADD\_LIBRARY`定义的目标文件，可能是可执行二进制、动态库、静态库。
+TARGETS后面跟通过`ADD_EXECUTABLE`或者`ADD_LIBRARY`定义的目标文件，可能是可执行二进制、动态库、静态库。
 
 目标类型：ARCHIVE指静态库、LIBRARY指动态库、RUNTIME指可执行目标二进制
 
